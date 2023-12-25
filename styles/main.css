@@ -5,8 +5,9 @@
 }
 
 
-video {
+iframe {
     width: 100vw;
+    height: 56.25vw; /* Calcula a altura para manter a proporção 16:9 */
 }
 
 .info-video {
