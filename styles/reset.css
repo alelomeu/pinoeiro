@@ -1,0 +1,23 @@
+:root{
+    --mayters: #3065ac;
+    --diogo: #cca9dd ;
+    --erika:#dfd880;
+    --wagner: #4ddf96;
+    --naara: #d77171;
+    --alexa: #8f6277;
+    --border-radius4: 4px;
+    --border-radius8: 8px;
+}
+*{ 
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+
+
+html {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
