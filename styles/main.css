@@ -35,9 +35,10 @@ h3 {
 }
 
 svg {
-    width: 30px;
-    height: 30px;
-    animation: tchalAnimation 2s infinite; /* 2s de duração, repetição infinita */
+    width: 2rem;
+    height: 2rem;
+    -webkit-animation: tchalAnimation 2s infinite;
+    animation: tchalAnimation 2s infinite;
 }
 
 .music-person {
