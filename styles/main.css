@@ -58,6 +58,65 @@ svg {
     text-align: center;
 }
 
+.container-recados{
+    background-color: #f3c46c; 
+    background-color: rgb(243, 196, 108); 
+
+}
+
+.container-recados h2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.recados {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recado {
+    position: relative;
+    height: auto;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+}
+.recado::before {
+    content: '\1F4CC'; /* Código Unicode para o ícone de alfinete */
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+/* Adicionado: rotação aleatória para alguns recados */
+.recado:nth-child(odd) {
+    transform: rotate(2deg);
+}
+
+.recado p{
+    font-family: 'Homemade Apple', cursive;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+    line-height: 1.3em;
+    display: flex;
+}
+
+.recado spam{
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    line-height: 1.3rem;
+    display: flex;
+}  
+
 @media screen and (min-width: 768px) {
     video {
         height: 30vw;

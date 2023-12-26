@@ -85,7 +85,7 @@
 }
 
 .alexa {
-    background: #8f6277;
+    background: linear-gradient(180deg, rgba(143,98,119,1) 0%, rgba(143,98,119,1) 19%, rgba(143,98,119,1) 28%, rgba(143,98,119,1) 89%, rgb(243,196,108,1) 100%);    
 }
 
 /* Media Query para Telas de Notebook */
