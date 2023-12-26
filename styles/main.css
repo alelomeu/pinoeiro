@@ -130,11 +130,18 @@ svg {
     justify-content: center;
     align-items: center;
 }
-.menu p {
-   margin: 0.8rem;
+.menu-text a {
+   margin: 1rem;
+   font-family: 'IBM Plex Sans', sans-serif;
+   color: black !important;
+   text-decoration: none; /* Remove sublinhado padrão */
 
 }
 
+.menu-text a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    color: inherit; /* Herda a cor do texto do elemento pai */
+  }
 .menu-text{
     display: flex;
 }
