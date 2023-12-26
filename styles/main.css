@@ -150,6 +150,7 @@ svg {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 .menu-text a {
    margin: 1rem;
